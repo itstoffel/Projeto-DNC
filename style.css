@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-sup{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-sup{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-image: url(imagens/imgfundo.svg);
+    color: white;
+}
+
+#menuinf{
+    background-color: #EAECE5;
+    display:grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icon{
+margin: 50px 0px 50px 100px;
+padding: 25px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinfo{
+    display: flex;
+    align-items: center;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#video1{
+    margin: 50px 25px 50px 100px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+#titulocarrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#divcard{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#setaesq{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+.seta{
+    margin-top: 70%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateX(7px);
+    transition: 0.3s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#tituloform{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    border: 0px;
+    border-radius: 5px;
+    color: #EAECE5;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #328bb0;
+    color: white;
+    transform: translateY(-4px);
+    transition: 0.3s;
+    box-shadow: 0px 10px 15px #0f4861;
+}
+
+
